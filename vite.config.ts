@@ -6,7 +6,7 @@ import { defineConfig } from 'vite'
 export default defineConfig({
   plugins: [react(), tailwindcss()],
   build: {
-    chunkSizeWarningLimit: 1200,
+    chunkSizeWarningLimit: 2000,
   },
   // Allow tunnel hosts (localhost.run etc.) so Jabir can preview live.
   preview: {
